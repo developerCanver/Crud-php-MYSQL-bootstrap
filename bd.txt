@@ -1,0 +1,12 @@
+create database crudcinar2;
+use crudcinar2;
+
+
+CREATE TABLE t_estudiante (
+  id int(11) AUTO_INCREMENT,
+  nombre varchar(100),
+  apellido varchar(100),
+  nota1 float(4),
+  nota2 float(4),
+    PRIMARY KEY(id)
+);
